@@ -31,7 +31,7 @@ from save import *
 def finalize(saves):
     print("done.")
     
-data_path = "/Users/fyc/Desktop/Hackaton-09-11-2017/Demo/study/data"
+data_path = "/Users/fyc/Desktop/MRaDS-2017/MRaDS-2017-Demo-Study/data"
 
 dsk = {}
 files = sorted(glob.glob("{0}/*.tif".format(data_path)))

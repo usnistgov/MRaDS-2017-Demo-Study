@@ -163,4 +163,4 @@ if __name__ == '__main__':
 
     pickle.dump(result, open("{0}-threshold.data".format(filename_cleaned), 'wb'))
     
-    print "{0}-threshold.data".format(filename_cleaned)
+    print("{0}-threshold.data".format(filename_cleaned))

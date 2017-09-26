@@ -42,4 +42,4 @@ if __name__ == '__main__':
     result = reveal(data)
     pickle.dump(result, open("{0}-reveal.data".format(filename_cleaned), 'wb'))
 
-    print "{0}-reveal.data".format(filename_cleaned)
+    print("{0}-reveal.data".format(filename_cleaned))

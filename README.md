@@ -10,7 +10,7 @@ To be able to follow you will have to do the following steps.
 
 If not, install [Anaconda](https://www.anaconda.com/download/#macos) or [VirtualEnv](https://virtualenv.pypa.io/en/stable/installation/) and create one.
 
-##Make sure you have a CoRR account.
+## Make sure you have a CoRR account.
 
 If not, register and wait for the admin approval.
 The admin will approve.
@@ -26,15 +26,58 @@ I contains your tool and user credentials to talk to this CoRR instance.
 Download or git clone the study.
 Now you have the study.
 Open it as a folder to see what is in there.
+Move the Sumatra-config.json file here.
 
 ## Go to the github page of [corr-sumatra](https://github.com/usnistgov/corr-sumatra)
 
+Go to a place outside of the study.
 Download or git clone it.
 Go inside the folder.
-Install the module: python setup.py install.
-Install gitpython: pip install gitpython.
+Install the module:
+
+	$ python setup.py install.
+
+Install gitpython: 
+
+	$ pip install gitpython.
+
+Install [tesseract](https://github.com/tesseract-ocr/tesseract/wiki)
+For Mac:
+
+	$ brew install tesseract
+
+For Ubuntu:
+
+	$ sudo apt-get install tesseract-ocr
+
+For all add:
+
+	$ pip install pytesseract
+	
+For Linux:
+	$ sudo apt-get install 
+
+Install graphviz needed by [Dask](https://dask.pydata.org/en/latest/)
+
+	$ pip install graphviz
+
+## Setup Sumatra for the study
+
+Make sure you have everything in version control with git.
+	
+	$ git init
+	$ git add --all
+	$ git commit -m "Setup commit"
+
+Now initialize Sumatra.
+
+	$ smt init -s Sumatra-config.json SEM-Images-Sumatra
+
+## How would you typically run this
+	
+	$ python setup.py combined.py
 
 ## Make sure you go back to the study folder
 
-Run: jupyter notebook.
-Follow the notebook from there.
+Run (In your terminal): jupyter notebook
+Follow the the Sumatra Notebook

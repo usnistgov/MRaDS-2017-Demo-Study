@@ -35,4 +35,4 @@ if __name__ == '__main__':
     result = min_size(data)
     pickle.dump(result, open("{0}-min_size.data".format(filename_cleaned), 'wb'))
 
-    print "{0}-min_size.data".format(filename_cleaned)
+    print("{0}-min_size.data".format(filename_cleaned))
