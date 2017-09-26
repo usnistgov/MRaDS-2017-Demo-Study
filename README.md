@@ -30,16 +30,20 @@ Move the Sumatra-config.json file here.
 
 ## Go to the github page of [corr-sumatra](https://github.com/usnistgov/corr-sumatra)
 
+Install gitpython: 
+
+	$ pip install gitpython.
+
+Install ConfigParser:
+
+	$ pip install ConfigParser
+
 Go to a place outside of the study.
 Download or git clone it.
 Go inside the folder.
 Install the module:
 
 	$ python setup.py install.
-
-Install gitpython: 
-
-	$ pip install gitpython.
 
 Install [tesseract](https://github.com/tesseract-ocr/tesseract/wiki)
 For Mac:
