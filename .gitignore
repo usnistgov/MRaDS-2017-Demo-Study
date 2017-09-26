@@ -2,4 +2,4 @@
 *.pyc
 .cache
 .ipynb_checkpoints
-config.json
+*-config.json
