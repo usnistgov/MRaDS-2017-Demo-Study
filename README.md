@@ -38,6 +38,10 @@ Install ConfigParser:
 
 	$ pip install ConfigParser
 
+Install Jinja 2.8.1
+
+	$ pip install jinja2==2.8.1
+
 Go to a place outside of the study.
 Download or git clone it.
 Go inside the folder.
