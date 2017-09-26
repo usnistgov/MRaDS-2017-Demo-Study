@@ -27,6 +27,7 @@ Download or git clone the study.
 Now you have the study.
 Open it as a folder to see what is in there.
 Move the Sumatra-config.json file here.
+Rename Sumatra-config.json to config.json.
 
 ## Go to the github page of [corr-sumatra](https://github.com/usnistgov/corr-sumatra)
 
@@ -79,7 +80,7 @@ Make sure you have everything in version control with git.
 
 Now initialize Sumatra.
 
-	$ smt init -s Sumatra-config.json SEM-Images-Sumatra
+	$ smt init -s config.json SEM-Images-Sumatra
 
 ## How would you typically run this
 	
