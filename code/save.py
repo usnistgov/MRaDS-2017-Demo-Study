@@ -17,7 +17,7 @@ import pickle
 
 def save(data):
     clean_name = data['filename'].split("/")[-1].split(".")[0]
-    file_path = "{0}.json".format(clean_name)
+    file_path = "Data/{0}.json".format(clean_name)
     filtered_data = {}
     filtered_data['filename'] = clean_name
     filtered_data['pearlite_fraction'] = data['pearlite_fraction']
