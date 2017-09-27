@@ -37,7 +37,7 @@ Go to the github page of [corr-sumatra](https://github.com/usnistgov/corr-sumatr
 
 Install gitpython: 
 
-	$ pip install gitpython.
+	$ pip install gitpython
 
 Install ConfigParser:
 
@@ -52,7 +52,7 @@ Download or git clone it.
 Go inside the folder.
 Install the module:
 
-	$ python setup.py install.
+	$ python setup.py install
 
 ## Study Required Libraries
 
@@ -90,9 +90,12 @@ Now initialize Sumatra.
 
 ## How would you typically run this
 	
-	$ python setup.py combined.py
+	$ python code/combined.py
 
 ## Make sure you go back to the study folder
 
-Run (In your terminal): jupyter notebook
-Follow the the Sumatra Notebook
+Run (In your terminal): 
+
+	$ jupyter notebook
+
+Run the notebook named "sumatra"
