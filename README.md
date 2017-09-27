@@ -21,7 +21,9 @@ Download the Sumatra Tool Credentials.
 It will a file named: Sumatra-config.json
 I contains your tool and user credentials to talk to this CoRR instance.
 
-## Go to the github page of the [demo](https://github.com/usnistgov/MRaDS-2017-Demo-Study)
+## The study Code
+
+Go to the github page of the [demo](https://github.com/usnistgov/MRaDS-2017-Demo-Study)
 
 Download or git clone the study.
 Now you have the study.
@@ -29,7 +31,9 @@ Open it as a folder to see what is in there.
 Move the Sumatra-config.json file here.
 Rename Sumatra-config.json to config.json.
 
-## Go to the github page of [corr-sumatra](https://github.com/usnistgov/corr-sumatra)
+## Sumatra Integrated CoRR
+
+Go to the github page of [corr-sumatra](https://github.com/usnistgov/corr-sumatra)
 
 Install gitpython: 
 
@@ -49,6 +53,8 @@ Go inside the folder.
 Install the module:
 
 	$ python setup.py install.
+
+## Study Required Libraries
 
 Install [tesseract](https://github.com/tesseract-ocr/tesseract/wiki)
 For Mac:
@@ -70,7 +76,7 @@ Install graphviz needed by [Dask](https://dask.pydata.org/en/latest/)
 
 	$ pip install graphviz
 
-## Setup Sumatra for the study
+## Setup Sumatra for the Study
 
 Make sure you have everything in version control with git.
 	
